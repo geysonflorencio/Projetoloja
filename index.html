@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    <h1>LOJA DO JASON!!!!!</STyle></h1>
+    
+<body>
+    <header>
+        <img src="https://m.media-amazon.com/images/I/61LuZCrmygL._AC_UF1000,1000_QL80_.jpg" alt="Logo da Loja">
+        <h1>Loja Virtual</h1>
+        <form action="/search" method="get">
+            <input type="text" id="search-input" name="search" placeholder="Digite sua busca">
+            <button type="submit" class="search-button">Buscar</button>
+        </form>
+    </header>
+
+    <h1>Produtos</h1>
+    <div id="produtos-container"></div>
+    
+    <h2>Carrinho de Compras</h2>
+    <div id="carrinho-items"></div>
+    <p id="carrinho-total">Total: R$0.00</p>
+    
+    <button id="finalizar-compra">Finalizar Compra</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
